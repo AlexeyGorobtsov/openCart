@@ -68,8 +68,9 @@ span.glyphicon-shopping-cart{
 .main-menu .navbar-inverse{
 	background: transparent;
 	border: none;
+	margin-bottom: 15px;
 }
-.main-menu{
+.common-home .main-menu{
 	position: absolute;
 	z-index: 21;
 	width: 100%;
@@ -499,7 +500,9 @@ section.menu-carousel{
 	background: #fff;
 	padding: 25px 0;
 }
-
+.main-menu .navbar-brand span:not(.common-home){
+	padding-left: 25px;
+}
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
 	.menu-top .navbar-nav,
