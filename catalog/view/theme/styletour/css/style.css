@@ -36,14 +36,17 @@ h3{
 .menu-top .navbar-default .navbar-nav > li > a:hover{
 	text-decoration: underline;
 }
-.menu-top .navbar-default .navbar-nav > li > a.btn-red{
+.menu-top .navbar-default .navbar-nav > li > button.btn-red{
 	color: #fff;
 	border-radius: 3px;
 	padding: 5px 20px;
 }
-.menu-top .navbar-default .navbar-nav > li > a.btn-red:hover{
+.menu-top .navbar-default .navbar-nav > li > button.btn-red:hover{
 	background: #ec4835;
 	text-decoration: none;
+}
+span.glyphicon-shopping-cart{
+	margin-right: 5px;
 }
 .menu-top .navbar-default .navbar-nav > li > a > .glyphicon{
 	margin-right: 10px;
