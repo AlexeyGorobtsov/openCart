@@ -282,3 +282,8 @@
 2017-09-27 16:07:30 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 99
 2017-09-27 16:14:18 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
 2017-09-27 16:14:34 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-27 16:26:54 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-27 16:37:53 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-27 16:38:51 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-27 16:39:08 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-27 16:43:09 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
