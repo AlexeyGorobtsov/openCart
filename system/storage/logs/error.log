@@ -1,0 +1,52 @@
+2017-09-26 10:04:33 - PHP Notice:  Undefined variable: ckeditor in C:\OSPanel\domains\oc.loc\admin\view\template\extension\theme\storeset.tpl on line 1705
+2017-09-26 10:04:33 - PHP Notice:  Undefined variable: ckeditor in C:\OSPanel\domains\oc.loc\admin\view\template\extension\theme\storeset.tpl on line 1728
+2017-09-26 13:15:22 - PHP Notice:  Undefined variable: ckeditor in C:\OSPanel\domains\oc.loc\admin\view\template\extension\theme\storeset.tpl on line 1705
+2017-09-26 13:15:22 - PHP Notice:  Undefined variable: ckeditor in C:\OSPanel\domains\oc.loc\admin\view\template\extension\theme\storeset.tpl on line 1728
+2017-09-26 14:46:48 - PHP Notice:  Undefined variable: ckeditor in C:\OSPanel\domains\oc.loc\admin\view\template\extension\theme\storeset.tpl on line 1705
+2017-09-26 14:46:48 - PHP Notice:  Undefined variable: ckeditor in C:\OSPanel\domains\oc.loc\admin\view\template\extension\theme\storeset.tpl on line 1728
+2017-09-26 15:01:35 - PHP Notice:  Undefined variable: ckeditor in C:\OSPanel\domains\oc.loc\admin\view\template\extension\theme\storeset.tpl on line 1705
+2017-09-26 15:01:35 - PHP Notice:  Undefined variable: ckeditor in C:\OSPanel\domains\oc.loc\admin\view\template\extension\theme\storeset.tpl on line 1728
+2017-09-26 15:02:05 - PHP Notice:  Undefined variable: ckeditor in C:\OSPanel\domains\oc.loc\admin\view\template\extension\theme\storeset.tpl on line 1705
+2017-09-26 15:02:05 - PHP Notice:  Undefined variable: ckeditor in C:\OSPanel\domains\oc.loc\admin\view\template\extension\theme\storeset.tpl on line 1728
+2017-09-26 15:05:45 - PHP Notice:  Undefined variable: ckeditor in C:\OSPanel\domains\oc.loc\admin\view\template\extension\theme\storeset.tpl on line 1705
+2017-09-26 15:05:45 - PHP Notice:  Undefined variable: ckeditor in C:\OSPanel\domains\oc.loc\admin\view\template\extension\theme\storeset.tpl on line 1728
+2017-09-26 16:16:10 - PHP Notice:  Undefined variable: ckeditor in C:\OSPanel\domains\oc.loc\admin\view\template\extension\theme\storeset.tpl on line 1705
+2017-09-26 16:16:10 - PHP Notice:  Undefined variable: ckeditor in C:\OSPanel\domains\oc.loc\admin\view\template\extension\theme\storeset.tpl on line 1728
+2017-09-26 16:57:38 - PHP Notice:  Use of undefined constant languages - assumed 'languages' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\language.tpl on line 1
+2017-09-26 16:58:14 - PHP Notice:  Use of undefined constant languages - assumed 'languages' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\language.tpl on line 1
+2017-09-26 16:59:20 - PHP Notice:  Use of undefined constant languages - assumed 'languages' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\language.tpl on line 1
+2017-09-26 16:59:21 - PHP Notice:  Use of undefined constant languages - assumed 'languages' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\language.tpl on line 1
+2017-09-26 16:59:22 - PHP Notice:  Use of undefined constant languages - assumed 'languages' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\language.tpl on line 1
+2017-09-26 16:59:32 - PHP Notice:  Use of undefined constant languages - assumed 'languages' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\language.tpl on line 1
+2017-09-26 17:11:02 - PHP Notice:  Undefined variable: langueges in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\language.tpl on line 3
+2017-09-26 17:11:02 - PHP Warning:  Invalid argument supplied for foreach() in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\language.tpl on line 3
+2017-09-26 17:11:04 - PHP Notice:  Undefined variable: langueges in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\language.tpl on line 3
+2017-09-26 17:11:04 - PHP Warning:  Invalid argument supplied for foreach() in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\language.tpl on line 3
+2017-09-26 17:11:05 - PHP Notice:  Undefined variable: langueges in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\language.tpl on line 3
+2017-09-26 17:11:05 - PHP Warning:  Invalid argument supplied for foreach() in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\language.tpl on line 3
+2017-09-27 9:32:22 - PHP Notice:  Undefined index: symbol_left in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\currency.tpl on line 5
+2017-09-27 9:32:22 - PHP Notice:  Undefined index: code in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\currency.tpl on line 8
+2017-09-27 9:32:22 - PHP Notice:  Undefined index: symbol_left in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\currency.tpl on line 5
+2017-09-27 9:32:22 - PHP Notice:  Undefined index: symbol_left in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\currency.tpl on line 5
+2017-09-27 9:32:22 - PHP Notice:  Undefined index: code in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\currency.tpl on line 8
+2017-09-27 9:32:51 - PHP Notice:  Undefined index: symbol_left in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\currency.tpl on line 5
+2017-09-27 9:32:51 - PHP Notice:  Undefined index: code in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\currency.tpl on line 8
+2017-09-27 9:32:51 - PHP Notice:  Undefined index: symbol_left in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\currency.tpl on line 5
+2017-09-27 9:32:51 - PHP Notice:  Undefined index: symbol_left in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\currency.tpl on line 5
+2017-09-27 9:32:51 - PHP Notice:  Undefined index: code in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\currency.tpl on line 8
+2017-09-27 9:32:54 - PHP Notice:  Undefined index: symbol_left in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\currency.tpl on line 5
+2017-09-27 9:32:54 - PHP Notice:  Undefined index: code in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\currency.tpl on line 8
+2017-09-27 9:32:54 - PHP Notice:  Undefined index: symbol_left in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\currency.tpl on line 5
+2017-09-27 9:32:54 - PHP Notice:  Undefined index: symbol_left in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\currency.tpl on line 5
+2017-09-27 9:32:54 - PHP Notice:  Undefined index: code in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\currency.tpl on line 8
+2017-09-27 9:33:13 - PHP Notice:  Undefined index: symbol_left in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\currency.tpl on line 5
+2017-09-27 9:33:13 - PHP Notice:  Undefined index: code in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\currency.tpl on line 8
+2017-09-27 9:33:13 - PHP Notice:  Undefined index: symbol_left in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\currency.tpl on line 5
+2017-09-27 9:33:13 - PHP Notice:  Undefined index: symbol_left in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\currency.tpl on line 5
+2017-09-27 9:33:13 - PHP Notice:  Undefined index: code in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\currency.tpl on line 8
+2017-09-27 9:34:12 - PHP Notice:  Undefined index: code in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\currency.tpl on line 8
+2017-09-27 9:34:12 - PHP Notice:  Undefined index: code in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\currency.tpl on line 8
+2017-09-27 9:34:23 - PHP Notice:  Use of undefined constant text_currency - assumed 'text_currency' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\currency.tpl on line 9
+2017-09-27 9:34:24 - PHP Notice:  Use of undefined constant text_currency - assumed 'text_currency' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\currency.tpl on line 9
+2017-09-27 9:35:23 - PHP Notice:  Use of undefined constant text_currency - assumed 'text_currency' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\currency.tpl on line 9
+2017-09-27 9:35:25 - PHP Notice:  Use of undefined constant text_currency - assumed 'text_currency' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\currency.tpl on line 9

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<modification>
+	<name>Octemplates TEMPLATE - Call Phone</name>
+	<version>1</version>
+	<author>Octemplates</author>
+	<code>popup_call_phone_001</code>
+	<description></description>
+
+	<file path="catalog/controller/common/header.php">
+		<operation>
+			<notes></notes>
+			<search index="" regex="false" trim="false"><![CDATA[public function index() {]]></search>
+			<add offset="0" trim="false" position="after"><![CDATA[        // popup_call_phone start
+        $data['popup_call_phone_data'] = $this->config->get('popup_call_phone_data');
+        $data['popup_call_phone_text'] = $this->language->load('extension/module/popup_call_phone');
+        // popup_call_phone end
+      ]]></add>
+		</operation>
+	</file>
+
+	<file path="catalog/view/theme/*/template/common/header.tpl">
+		<operation>
+			<notes></notes>
+			<search index="" regex="false" trim="false"><![CDATA[</head>]]></search>
+			<add offset="0" trim="false" position="before"><![CDATA[        <?php if (isset($popup_call_phone_data['status']) && $popup_call_phone_data['status']) { ?>
+        <link href="catalog/view/theme/storeset/stylesheet/popup_call_phone/stylesheet.css" rel="stylesheet" media="screen" />
+        <script type="text/javascript">
+        $(function() {
+          $('body').prepend('<a class="field-tip" onclick="get_popup_call_phone();" id="uptocall-mini"><div class="uptocall-mini-phone"></div><span class="tip-content"><?php echo $popup_call_phone_text['call_back']; ?></span></a>');
+        });
+        function get_popup_call_phone() {  
+          $.magnificPopup.open({
+            tLoading: '<img src="catalog/view/theme/storeset/stylesheet/popup_call_phone/ring-alt.svg" />',
+            items: {
+              src: 'index.php?route=extension/module/popup_call_phone',
+              type: 'ajax'
+            }
+          });
+        }
+        </script>
+      <?php } ?>
+      ]]></add>
+		</operation>
+	</file>
+
+</modification>

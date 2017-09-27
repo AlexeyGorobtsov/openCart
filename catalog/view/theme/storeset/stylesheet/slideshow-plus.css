@@ -1,0 +1,11 @@
+.slideshow-plus .inner {
+	position: absolute;
+	left: 5%;
+	top: 10%;
+}
+.slideshow-plus .inner .description {
+	position: relative;
+	font-size: 14px;
+	display: block;
+	margin-bottom: 15px;
+}

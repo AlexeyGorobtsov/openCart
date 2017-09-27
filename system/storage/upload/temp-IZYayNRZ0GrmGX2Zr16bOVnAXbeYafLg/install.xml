@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<modification>
+  <code>001fst</code>
+  <name>Octemplates TEMPLATE - Fast order</name>
+  <version>1</version>
+  <author>Octemplates</author>
+  <link>http://octemplates.net/</link>
+  <file path="system/library/url.php">
+     <operation error="skip">
+      <search><![CDATA[public function link($route, $args = '', $secure = false) {]]></search>
+      <add position="after"><![CDATA[
+	      
+	    
+	        $get_route = isset($_GET['route']) ? $_GET['route'] : (isset($_GET['_route_']) ? $_GET['_route_'] : '');
+	    
+	        if ($route == 'checkout/checkout' && $get_route != 'checkout/checkout') {
+	            $route = 'checkout/oct_fastorder';
+	        }
+	
+	        //if ($route == 'checkout/cart' && $get_route != 'checkout/cart') {
+	        //    $connection = 'SSL';
+	        //    $route = 'checkout/oct_fastorder';
+	        //}
+      ]]></add>
+    </operation>
+  </file>
+   <file path="catalog/view/theme/sstore/template/common/header.tpl">
+     <operation error="skip">
+      <search><![CDATA[<a href="<?php echo $shopping_cart; ?>" class="total-cart"><span class="ti-shopping-cart"></span>&nbsp;<span class="top-panel-div-span"><?php echo $text_shopping_cart; ?></span></a>]]></search>
+      <add position="replace"><![CDATA[ ]]></add>
+    </operation>
+  </file> 
+</modification>

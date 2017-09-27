@@ -1,0 +1,184 @@
+#popup-subscribe-wrapper {
+  background: #fff;
+  max-width: 600px;
+  width: 90%;
+  margin: 0 auto;
+  min-height: 500px;
+  position: relative;
+}
+#popup-subscribe-wrapper.only-right-side {
+  width: 300px;
+}
+#popup-subscribe-wrapper .mfp-close {
+  display: none;
+}
+#popup-subscribe-wrapper .popup-footer {
+  padding: 17px 25px 17px 25px;
+  border-top: 1px solid #dfe4eb;
+  background-color: #f2f6f9;
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  vertical-align: bottom;
+}
+#popup-subscribe-wrapper .popup-footer button {
+  height: 32px;
+  line-height: 30px;
+  color: #000;
+  padding: 0 25px;
+  cursor: pointer;
+  font-size: 12px;
+  display: inline-block;
+  border: 1px solid #c5cdd8;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, .1);
+  background: #f2f6f9;
+  border-radius: 2px;
+  outline: none;
+  text-align: center;
+}
+#popup-subscribe-wrapper .popup-footer button:hover {
+  box-shadow: 0 0px 1px rgba(0, 0, 0, .1);
+}
+#popup-subscribe-wrapper .popup-footer a {
+  float: right;
+  border: 1px solid #f06b10;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  background: #ff8001;
+  color: #fff;
+  font-size: 13px;
+  font-weight: bold;
+  height: 33px;
+  line-height: 33px;
+  padding: 0 30px;
+  cursor: pointer;
+  display: inline-block;
+  border-radius: 2px;
+  text-align: center;
+}
+#popup-subscribe-wrapper .popup-footer #popup-checkout-none {
+  opacity: 0.5;
+  background: #F64747;
+  border: 1px solid #D64541;
+}
+#popup-subscribe-wrapper .popup-footer #popup-checkout-none:hover {
+  background: #F64747;
+  cursor: not-allowed;
+}
+#popup-subscribe-wrapper .popup-footer a:hover {
+  background: #ff9601;
+}
+#popup-subscribe-wrapper .popup-center {
+  background: #fff;
+  padding: 0px;
+  overflow: auto;
+}
+#popup-subscribe-wrapper .left {
+  float: left;
+  width: 50%;
+  position: relative;
+}
+#popup-subscribe-wrapper .right {
+  float: right;
+  position: relative;
+  width: 50%;
+  height: 500px;
+  padding: 25px;
+  box-sizing: border-box;
+}
+#popup-subscribe-wrapper .right .promo-text {
+  margin-top: 10px;
+}
+#popup-subscribe-wrapper .right .output-message {
+  color: #666;
+  font-size: 14px;
+}
+#popup-subscribe-wrapper .right .input-field {
+  margin-top: 20px;
+  position: relative;
+  margin-bottom: 10px;
+}
+#popup-subscribe-wrapper .right .input-field input[type=text] {
+  border: 1px solid #dfe4eb;
+  padding: 10px 10px;
+  background: #fff;
+  outline: none;
+  color: #666;
+  font-size: 14px;
+  width: 100%;
+}
+#popup-subscribe-wrapper .right .input-field a#popup-subscribe-button {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: #F64747;
+  color: #fff;
+  font-size: 14px;
+  line-height: 14px;
+  padding: 14px;
+  cursor: pointer;
+  text-decoration: none;
+}
+#popup-subscribe-wrapper .right .input-field a#popup-subscribe-button:hover {
+  opacity: .8;
+}
+#popup-subscribe-wrapper .right .input-field .stop {
+  margin-top: 10px;
+  font-size: 12px;
+  line-height: 12px;
+  color: #333;
+}
+#popup-subscribe-wrapper .right .input-field .stop input {
+  margin-right: 5px;
+  margin-top: 0;
+}
+#popup-subscribe-wrapper .left .image {
+  max-width: 300px;
+  height: 500px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#popup-subscribe-wrapper .right .close {
+  background: url('close.png?v1') no-repeat;
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  opacity: 1;
+  text-indent: -9999px;
+}
+.masked {
+  position: absolute;
+  z-index: 10000;
+  width: 100%;
+  height: 100%;
+  background: #eee;
+  opacity: 0.4;
+  left: 0;
+  top: 0;
+}
+.masked_loading {
+  background: url(ring-alt.svg) no-repeat center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 10001;
+  top: 0;
+  left: 0;
+}
+#static-subscribe-wrapper {
+  position: relative;
+}
+@media (min-width: 320px) and (max-width: 768px) {
+  #popup-subscribe-wrapper {
+    max-width: 300px;
+  }
+  #popup-subscribe-wrapper .right {
+    width: 100%;
+    text-align: center;
+  }
+  #popup-subscribe-wrapper .left {
+    width: 100%;
+  }
+}

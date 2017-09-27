@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<modification>
+  <code>001mdata</code>
+  <name>Octemplates TEMPLATE - Microdata shop-store</name>
+  <version>1</version>
+  <author>Octemplates</author>
+  <link>http://octemplates.net/</link>
+   
+	<file path="catalog/view/theme/storeset/template/product/product.tpl">
+	<operation error="skip">
+		<search><![CDATA[
+		<?php foreach ($breadcrumbs as $breadcrumb) { ?>
+		]]></search>
+		<add position="replace" offset="1"><![CDATA[
+	<?php foreach ($breadcrumbs as $cnt=> $breadcrumb) { ?>
+	<?php if($cnt==0) { ?>
+		<li><a href="<?php echo $breadcrumb['href']; ?>"><?php echo $breadcrumb['text']; ?></a></li>
+	<?php } elseif($cnt+1<count($breadcrumbs)) { ?>
+		<li itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><a itemprop="url" href="<?php echo $breadcrumb['href']; ?>"><span itemprop="title"><?php echo $breadcrumb['text']; ?></span></a></li>
+	<?php } else { ?>
+		<li><span itemprop="name"><?php echo $breadcrumb['text']; ?></span></li>
+	<?php } ?>]]></add>
+	</operation>
+	</file>
+	
+	<file path="catalog/view/theme/storeset/template/product/category.tpl">
+	<operation error="skip">
+		<search><![CDATA[
+		<?php foreach ($breadcrumbs as $breadcrumb) { ?>
+		]]></search>
+		<add position="replace" offset="1"><![CDATA[
+	<?php foreach ($breadcrumbs as $cnt=> $breadcrumb) { ?>
+	<?php if($cnt==0) { ?>
+		<li><a href="<?php echo $breadcrumb['href']; ?>"><?php echo $breadcrumb['text']; ?></a></li>
+	<?php } elseif($cnt+1<count($breadcrumbs)) { ?>
+		<li itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><a itemprop="url" href="<?php echo $breadcrumb['href']; ?>"><span itemprop="title"><?php echo $breadcrumb['text']; ?></span></a></li>
+	<?php } else { ?>
+		<li><span itemprop="name"><?php echo $breadcrumb['text']; ?></span></li>
+	<?php } ?>]]></add>
+	</operation>
+	</file>
+	
+	<file path="catalog/view/theme/storeset/template/product/manufacturer_info.tpl">
+	<operation error="skip">
+		<search><![CDATA[
+		<?php foreach ($breadcrumbs as $breadcrumb) { ?>
+		]]></search>
+		<add position="replace" offset="1"><![CDATA[
+	<?php foreach ($breadcrumbs as $cnt=> $breadcrumb) { ?>
+	<?php if($cnt==0) { ?>
+		<li><a href="<?php echo $breadcrumb['href']; ?>"><?php echo $breadcrumb['text']; ?></a></li>
+	<?php } elseif($cnt+1<count($breadcrumbs)) { ?>
+		<li itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><a itemprop="url" href="<?php echo $breadcrumb['href']; ?>"><span itemprop="title"><?php echo $breadcrumb['text']; ?></span></a></li>
+	<?php } else { ?>
+		<li><span itemprop="name"><?php echo $breadcrumb['text']; ?></span></li>
+	<?php } ?>]]></add>
+	</operation>
+	</file>	    
+
+	<file path="catalog/view/theme/storeset/template/product/manufacturer_list.tpl">
+	<operation error="skip">
+		<search><![CDATA[
+		<?php foreach ($breadcrumbs as $breadcrumb) { ?>
+		]]></search>
+		<add position="replace" offset="1"><![CDATA[
+	<?php foreach ($breadcrumbs as $cnt=> $breadcrumb) { ?>
+	<?php if($cnt==0) { ?>
+		<li><a href="<?php echo $breadcrumb['href']; ?>"><?php echo $breadcrumb['text']; ?></a></li>
+	<?php } elseif($cnt+1<count($breadcrumbs)) { ?>
+		<li itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><a itemprop="url" href="<?php echo $breadcrumb['href']; ?>"><span itemprop="title"><?php echo $breadcrumb['text']; ?></span></a></li>
+	<?php } else { ?>
+		<li><span itemprop="name"><?php echo $breadcrumb['text']; ?></span></li>
+	<?php } ?>]]></add>
+	</operation>
+	</file>
+
+	
+	<file path="catalog/view/theme/storeset/template/product/special.tpl">
+	<operation error="skip">
+		<search><![CDATA[
+		<?php foreach ($breadcrumbs as $breadcrumb) { ?>
+		]]></search>
+		<add position="replace" offset="1"><![CDATA[
+	<?php foreach ($breadcrumbs as $cnt=> $breadcrumb) { ?>
+	<?php if($cnt==0) { ?>
+		<li><a href="<?php echo $breadcrumb['href']; ?>"><?php echo $breadcrumb['text']; ?></a></li>
+	<?php } elseif($cnt+1<count($breadcrumbs)) { ?>
+		<li itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><a itemprop="url" href="<?php echo $breadcrumb['href']; ?>"><span itemprop="title"><?php echo $breadcrumb['text']; ?></span></a></li>
+	<?php } else { ?>
+		<li><span itemprop="name"><?php echo $breadcrumb['text']; ?></span></li>
+	<?php } ?>]]></add>
+	</operation>
+	</file>
+	
+		<file path="catalog/view/theme/storeset/template/product/oct_blog_info.tpl">
+	<operation error="skip">
+		<search><![CDATA[
+		<?php foreach ($breadcrumbs as $breadcrumb) { ?>
+		]]></search>
+		<add position="replace" offset="1"><![CDATA[
+	<?php foreach ($breadcrumbs as $cnt=> $breadcrumb) { ?>
+	<?php if($cnt==0) { ?>
+		<li><a href="<?php echo $breadcrumb['href']; ?>"><?php echo $breadcrumb['text']; ?></a></li>
+	<?php } elseif($cnt+1<count($breadcrumbs)) { ?>
+		<li itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><a itemprop="url" href="<?php echo $breadcrumb['href']; ?>"><span itemprop="title"><?php echo $breadcrumb['text']; ?></span></a></li>
+	<?php } else { ?>
+		<li><?php echo $breadcrumb['text']; ?></li>
+	<?php } ?>]]></add>
+	</operation>
+	</file>
+
+</modification>	

@@ -1,0 +1,117 @@
+/** modal window styles **/
+#lean_overlay {
+    position: fixed;
+    z-index:100;
+    top: 0px;
+    left: 0px;
+    height:100%;
+    width:100%;
+    background: rgba(95, 97, 112, 0.6);
+    display: none;
+}
+ 
+#loginmodal {
+      width: 90%;
+    max-width: 400px;
+  padding: 15px 20px;
+  background: #FFF;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+      -webkit-transform: translateY(-30px);
+    -moz-transform: translateY(-30px);
+    -ms-transform: translateY(-30px);
+    -o-transform: translateY(-30px);
+    transform: translateY(-30px);
+    -webkit-transition-property: -webkit-transform;
+    -moz-transition-property: -moz-transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    padding: 20px;
+    -webkit-box-shadow: 0px 5px 41px 0px rgba(0, 0, 0, 1);
+    -moz-box-shadow:    0px 5px 41px 0px rgba(0, 0, 0, 1);
+    box-shadow:         0px 5px 41px 0px rgba(0, 0, 0, 1);
+    overflow: auto;
+    border: 5px solid transparent;
+    border-color: rgba(239, 236, 236, 0.52);
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+}
+
+#loginmodal .logintitle {
+    text-align: center;
+    font-size: 18px;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+
+#loginform .fieldbox {
+    margin: 20px 0;
+    position: relative;
+}
+ 
+#loginform .fieldbox:first-child {
+    margin: 0;
+}
+
+#loginform .fieldbox label {
+    display: inline-block;
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    bottom: auto;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    height: 20px;
+    width: 20px;
+    overflow: hidden;
+    white-space: nowrap;
+    color: transparent;
+    text-shadow: none;
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+}
+
+#loginform .fieldbox label.email-label {
+    background-image: url("../images/Email-icon.png");
+}
+ 
+#loginform .fieldbox label.password-label {
+    background-image: url("../images/password.png");
+}
+
+#loginform .fieldbox input {
+    padding: 16px 20px 16px 50px;
+    border: 1px solid #d2d8d8;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    width: 100%;
+    margin: 0;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+#loginform .fieldbox .button {
+    height: 52px;
+    line-height: 22px;
+    font-size: 16px;
+    padding: 16px 20px;
+}
+
+.login-help {
+	text-align: center;
+}
+
+.login-help a{
+	font-size: 14px;
+}

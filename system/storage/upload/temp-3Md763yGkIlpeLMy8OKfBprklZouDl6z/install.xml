@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<modification>
+	<name>Octemplates TEMPLATE - COOL EMAIl TEMPLATE</name>
+	<code>sstore_email_admin</code>
+	<version>1.0</version>
+	<author>Octemplates</author>
+	<link>http://octemplates.net</link>
+	<file path="catalog/model/checkout/order.php">
+		<operation error="skip">
+			<search><![CDATA[$data['products'] = array();]]></search>
+			<add position="after"><![CDATA[
+				$this->load->model('tool/image');
+				$this->load->model('catalog/product');	
+			]]></add>
+		</operation>
+ 		<operation error="skip">
+			<search><![CDATA[$data['products'][] = array(]]></search>
+			<add position="before"><![CDATA[
+				$product_info = $this->model_catalog_product->getProduct($product['product_id']);
+				$data['language_code'] = $this->session->data['language'];
+			]]></add>
+		</operation>      
+ 		<operation error="skip">
+			<search><![CDATA[$data['products'][] = array(]]></search>
+			<add position="after"><![CDATA[
+				'image'    => ($product_info['image']) ? $this->model_tool_image->resize($product_info['image'], 100, 100) : '',
+				'href'        => $this->url->link('product/product', 'product_id=' . $product['product_id']),
+				'phone1' => $this->config->get('storeset_cont_phone1'),
+				'phone2' => $this->config->get('storeset_cont_phone2'),
+				'adres' => $this->config->get('storeset_cont_address'),
+				'clock' => $this->config->get('storeset_cont_clock'),		
+				'storeset_facebook_id' => $this->config->get('storeset_facebook_id'),	
+				'storeset_vk_id' => $this->config->get('storeset_vk_id'),	
+				'storeset_gplus_id' => $this->config->get('storeset_gplus_id'),	
+				'storeset_odnoklass_id' => $this->config->get('storeset_odnoklass_id'),	
+				'storeset_rss_id' => $this->config->get('storeset_rss_id'),	
+				'storeset_twitter_id' => $this->config->get('storeset_twitter_id'),	
+				'storeset_youtube_id' => $this->config->get('storeset_youtube_id'),									
+			]]></add>
+		</operation>  		
+	</file>		
+</modification>

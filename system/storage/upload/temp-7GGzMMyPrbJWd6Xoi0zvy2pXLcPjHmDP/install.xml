@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<modification>
+  <code>filter_products_100</code>
+  <name>Octemplates TEMPLATE - Product filter</name>
+  <version>1.0.0</version>
+  <author>Octemplates</author>
+  <link>http://octemplates.net/</link>
+  <file path="catalog/controller/product/category.php">
+    <operation error="skip">
+      <search><![CDATA[if (isset($this->request->get['sort'])) {]]></search>
+      <add position="before"><![CDATA[
+      $filter_products_data = $this->config->get('filter_products_data');
+      $filter_products_status = $this->config->get('filter_products_status');
+      ]]></add>
+    </operation>
+    <operation error="skip">
+      <search><![CDATA[$sort = $this->request->get['sort'];]]></search>
+      <add position="after"><![CDATA[
+      } elseif ($filter_products_status && $filter_products_data['default_sort']) {
+        $sort = $filter_products_data['default_sort'];
+      ]]></add>
+    </operation>
+    <operation error="skip">
+      <search><![CDATA[$order = $this->request->get['order'];]]></search>
+      <add position="after"><![CDATA[
+      } elseif ($filter_products_status && $filter_products_data['default_order']) {
+        $order = $filter_products_data['default_order'];
+      ]]></add>
+    </operation>
+    <operation error="skip">
+      <search><![CDATA['value' => 'p.sort_order-ASC',]]></search>
+      <add position="replace"><![CDATA[
+      'value' => ($filter_products_status && $filter_products_data['default_sort'] && $filter_products_data['default_order']) ? $filter_products_data['default_sort'].'-'.$filter_products_data['default_order'] : 'p.sort_order-ASC',
+      ]]></add>
+    </operation>
+    <operation error="skip">
+      <search><![CDATA['href'  => $this->url->link('product/category', 'path=' . $this->request->get['path'] . '&sort=p.sort_order&order=ASC' . $url)]]></search>
+      <add position="replace"><![CDATA[
+      'href'  => ($filter_products_status && $filter_products_data['default_sort'] && $filter_products_data['default_order']) ? $this->url->link('product/category', 'path=' . $this->request->get['path'] . '&sort='.$filter_products_data['default_sort'].'&order='.$filter_products_data['default_order'].$url) : $this->url->link('product/category', 'path=' . $this->request->get['path'] . '&sort=p.sort_order&order=ASC' . $url)
+      ]]></add>
+    </operation>
+  </file>
+  <file path="catalog/controller/product/manufacturer.php">
+    <operation error="skip">
+      <search><![CDATA[if (isset($this->request->get['sort'])) {]]></search>
+      <add position="before"><![CDATA[
+      $filter_products_data = $this->config->get('filter_products_data');
+      $filter_products_status = $this->config->get('filter_products_status');
+      ]]></add>
+    </operation>
+    <operation error="skip">
+      <search><![CDATA[$sort = $this->request->get['sort'];]]></search>
+      <add position="after"><![CDATA[
+      } elseif ($filter_products_status && $filter_products_data['default_sort']) {
+        $sort = $filter_products_data['default_sort'];
+      ]]></add>
+    </operation>
+    <operation error="skip">
+      <search><![CDATA[$order = $this->request->get['order'];]]></search>
+      <add position="after"><![CDATA[
+      } elseif ($filter_products_status && $filter_products_data['default_order']) {
+        $order = $filter_products_data['default_order'];
+      ]]></add>
+    </operation>
+    <operation error="skip">
+      <search><![CDATA['value' => 'p.sort_order-ASC',]]></search>
+      <add position="replace"><![CDATA[
+      'value' => ($filter_products_status && $filter_products_data['default_sort'] && $filter_products_data['default_order']) ? $filter_products_data['default_sort'].'-'.$filter_products_data['default_order'] : 'p.sort_order-ASC',
+      ]]></add>
+    </operation>
+    <operation error="skip">
+      <search><![CDATA['href'  => $this->url->link('product/manufacturer/info', 'manufacturer_id=' . $this->request->get['manufacturer_id'] . '&sort=p.sort_order&order=ASC' . $url)]]></search>
+      <add position="replace"><![CDATA[
+      'href'  => ($filter_products_status && $filter_products_data['default_sort'] && $filter_products_data['default_order']) ? $this->url->link('product/manufacturer/info', 'manufacturer_id=' . $this->request->get['manufacturer_id'] . '&sort='.$filter_products_data['default_sort'].'&order='.$filter_products_data['default_order'].$url) : $this->url->link('product/manufacturer/info', 'manufacturer_id=' . $this->request->get['manufacturer_id'] . '&sort=p.sort_order&order=ASC' . $url)
+      ]]></add>
+    </operation>
+  </file>
+  <file path="catalog/controller/product/search.php">
+    <operation error="skip">
+      <search><![CDATA[if (isset($this->request->get['sort'])) {]]></search>
+      <add position="before"><![CDATA[
+      $filter_products_data = $this->config->get('filter_products_data');
+      $filter_products_status = $this->config->get('filter_products_status');
+      ]]></add>
+    </operation>
+    <operation error="skip">
+      <search><![CDATA[$sort = $this->request->get['sort'];]]></search>
+      <add position="after"><![CDATA[
+      } elseif ($filter_products_status && $filter_products_data['default_sort']) {
+        $sort = $filter_products_data['default_sort'];
+      ]]></add>
+    </operation>
+    <operation error="skip">
+      <search><![CDATA[$order = $this->request->get['order'];]]></search>
+      <add position="after"><![CDATA[
+      } elseif ($filter_products_status && $filter_products_data['default_order']) {
+        $order = $filter_products_data['default_order'];
+      ]]></add>
+    </operation>
+    <operation error="skip">
+      <search><![CDATA['value' => 'p.sort_order-ASC',]]></search>
+      <add position="replace"><![CDATA[
+      'value' => ($filter_products_status && $filter_products_data['default_sort'] && $filter_products_data['default_order']) ? $filter_products_data['default_sort'].'-'.$filter_products_data['default_order'] : 'p.sort_order-ASC',
+      ]]></add>
+    </operation>
+    <operation error="skip">
+      <search><![CDATA['href'  => $this->url->link('product/search', 'sort=p.sort_order&order=ASC' . $url)]]></search>
+      <add position="replace"><![CDATA[
+      'href'  => ($filter_products_status && $filter_products_data['default_sort'] && $filter_products_data['default_order']) ? $this->url->link('product/search', 'sort='.$filter_products_data['default_sort'].'&order='.$filter_products_data['default_order'].$url) : $this->url->link('product/search', 'sort=p.sort_order&order=ASC' . $url)
+      ]]></add>
+    </operation>
+  </file>
+</modification>

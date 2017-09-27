@@ -1,0 +1,298 @@
+#popup-view-wrapper {
+    background: #fff;
+    max-width: 800px;
+    width: 90%;
+    margin: 0 auto;
+    min-height: 100px;
+    position: relative;
+}
+#popup-view-wrapper .popup-heading {
+    text-align: left;
+    background-color: #fff;
+    color: #1c1c1c;
+    font-size: 21px;
+    border-bottom: 1px solid #dfe4eb;
+    padding: 0 25px 0 25px;
+    position: relative;
+    min-height: 52px;
+    line-height: 52px;
+    overflow: hidden;
+}
+#popup-view-wrapper .mfp-close {
+    text-indent: -9999px;
+    width: 60px;
+    height: 52px;
+    background: #fff url(close.png) no-repeat;
+    right: 0;
+    top: 0;
+    position: absolute;
+    z-index: 2;
+    cursor: pointer !important;
+    outline: none;
+    border: 0;
+}
+#popup-view-wrapper .mfp-close:hover {
+    background-position: 0 -60px;
+}
+#popup-view-wrapper .popup-footer {
+    padding: 17px 25px 17px 25px;
+    border-top: 1px solid #dfe4eb;
+    background-color: #fff;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    vertical-align: bottom;
+    display: none;
+}
+#popup-view-wrapper .popup-footer button {
+    height: 32px;
+    line-height: 30px;
+    color: #000;
+    padding: 0 25px;
+    cursor: pointer;
+    font-size: 12px;
+    display: inline-block;
+    border: 1px solid #c5cdd8;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .1);
+    background: #f2f6f9;
+    border-radius: 2px;
+    outline: none;
+    text-align: center;
+}
+#popup-view-wrapper .popup-footer button:hover {
+    box-shadow: 0 0px 1px rgba(0, 0, 0, .1);
+}
+ul.thumbnails li a.thumbnail {
+    
+    border: 1px solid rgba(0, 0, 0, 0.08);
+}  
+ul.thumbnails li.image-additional label {
+    
+    border: 1px solid rgba(0, 0, 0, 0.08);
+}  
+  
+#popup-view-wrapper .popup-footer a {
+    float: right;
+    border: 1px solid #f06b10;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    background: #ff8001;
+    color: #fff;
+    font-size: 13px;
+    font-weight: bold;
+    height: 33px;
+    line-height: 33px;
+    padding: 0 30px;
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 2px;
+    text-align: center;
+}
+#popup-view-wrapper .popup-footer #popup-checkout-none {
+    opacity: 0.5;
+    background: #F64747;
+    border: 1px solid #D64541;
+}
+#popup-view-wrapper .popup-footer #popup-checkout-none:hover {
+    background: #F64747;
+    cursor: not-allowed;
+}
+#popup-view-wrapper .popup-footer a:hover {
+    background: #ff9601;
+}
+#popup-view-wrapper .popup-center {
+    background: #fff;
+    padding: 25px;
+    overflow: auto;
+}
+#popup-view-wrapper .product-name {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.payment-quantity {
+    position: relative;
+}
+.payment-quantity label {
+    display: block;
+    font-size: 12px;
+    line-height: 12px;
+    color: #666;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+.payment-quantity .number {
+    border: 1px solid #c5cdd8;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+}
+.payment-quantity .frame-change-count {
+    width: 116px;
+}
+.payment-quantity .btn-plus button {
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    display: inline-block;
+    background: #f2f6f9;
+    border: 0;
+    outline: none;
+    line-height: 5px;
+    text-align: center;
+}
+.payment-quantity .btn-minus button {
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    display: inline-block;
+    background: #f2f6f9;
+    border: 0;
+    outline: none;
+    text-align: center;
+    line-height: 0;
+}
+.payment-quantity .btn-minus button span {
+    width: 14px;
+    height: 2px;
+    background: #f2f6f9 url(plus-minus.png) no-repeat;
+    background-position: -20px 0px;
+    display: inline-block;
+}
+.payment-quantity .btn-plus button span {
+    width: 14px;
+    height: 14px;
+    background: #f2f6f9 url(plus-minus.png) no-repeat;
+    background-position: 0 0px;
+    display: inline-block;
+}
+.payment-quantity .btn-plus {
+    float: right;
+}
+.payment-quantity .btn-minus {
+    float: left;
+}
+.payment-quantity input.plus-minus {
+    border-top: 0;
+    border-bottom: 0;
+    border-left: 1px solid #c5cdd8;
+    border-right: 1px solid #c5cdd8;
+    background: #fff;
+    width: 52px;
+    height: 32px;
+    position: absolute;
+    left: 32px;
+    top: 0;
+    outline: none;
+    font-size: 18px;
+    text-align: center;
+}
+.masked {
+    position: absolute;
+    z-index: 10000;
+    width: 100%;
+    height: 100%;
+    background: #eee;
+    opacity: 0.4;
+    left: 0;
+    top: 0;
+}
+.masked_loading {
+    background: url(ring-alt.svg) no-repeat center center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 10001;
+    top: 0;
+    left: 0;
+}
+#popup-view-wrapper .image-additional {
+    max-width: 69px;
+    float:left;
+    margin-right: 10px;
+}
+#popup-view-wrapper .image-additional label:hover {
+    cursor: pointer;
+}
+#popup-view-wrapper .image-additional input {
+    display: none;
+}
+#popup-view-wrapper #tab-description {
+    max-height: 120px;
+    overflow-y: auto;
+}
+div.image:hover .popup_view_button {
+    display: block!important;
+    color: #fff!important;
+}
+a.popup_view_button {
+    display: none!important;
+    position: absolute;
+    top: 20%;
+    margin: 0 auto;
+    left: 0;
+    width: 130px;
+    right: 0;
+    padding: 2px 4px;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+    font-size: 11px;
+    text-transform: uppercase;
+    background: rgba(52, 52, 52, 0.71);
+    color: #3a3939;
+    border: 1px solid rgba(85, 85, 85, 0.09);
+}
+
+.popup_view_button:hover {
+    background: rgba(25, 25, 25, 0.71);
+    
+    text-decoration: none!importanr;
+}
+.popup_view_button a:hover {
+    text-decoration: none!importanr;
+}
+
+.product-list .popup_view_button {
+    top: 31%;
+    left: 13%;
+}
+
+#main-price {
+	color: #504A4A;
+	font-size: 24px;
+}
+#special-price {
+	font-size: 24px;
+	font-weight: bold;
+}
+
+@media (min-width: 320px) and (max-width: 532px) {
+    #popup-view-wrapper .popup-heading {
+        font-size: 14px;
+    }
+    #popup-view-wrapper .popup-footer button {
+        width: 100%;
+    }
+    #popup-view-wrapper .popup-footer a {
+        width: 100%;
+        margin-top: 5px;
+    }
+}
+@media (min-width: 533px) and (max-width: 603px) {
+    .btn-minus button {
+        width: 25px;
+        height: 27px;
+    }
+    .btn-plus button {
+        width: 25px;
+        height: 27px;
+    }
+    .frame-change-count {
+        width: 78px;
+    }
+    input.plus-minus {
+        width: 28px;
+        height: 27px;
+        left: 25px;
+    }
+}
