@@ -367,3 +367,236 @@
 2017-09-27 17:32:58 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
 2017-09-27 17:43:19 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
 2017-09-27 17:43:20 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-28 10:04:44 - PHP Notice:  Use of undefined constant col - assumed 'col' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\home.tpl on line 6
+2017-09-28 10:04:44 - PHP Notice:  Use of undefined constant md - assumed 'md' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\home.tpl on line 6
+2017-09-28 10:04:44 - PHP Warning:  A non-numeric value encountered in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\home.tpl on line 6
+2017-09-28 10:04:44 - PHP Warning:  A non-numeric value encountered in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\home.tpl on line 6
+2017-09-28 10:08:24 - PHP Notice:  Use of undefined constant col - assumed 'col' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\home.tpl on line 6
+2017-09-28 10:08:24 - PHP Notice:  Use of undefined constant md - assumed 'md' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\home.tpl on line 6
+2017-09-28 10:08:24 - PHP Warning:  A non-numeric value encountered in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\home.tpl on line 6
+2017-09-28 10:08:24 - PHP Warning:  A non-numeric value encountered in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\home.tpl on line 6
+2017-09-28 10:08:31 - PHP Notice:  Use of undefined constant col - assumed 'col' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\home.tpl on line 6
+2017-09-28 10:08:31 - PHP Notice:  Use of undefined constant md - assumed 'md' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\home.tpl on line 6
+2017-09-28 10:08:31 - PHP Warning:  A non-numeric value encountered in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\home.tpl on line 6
+2017-09-28 10:08:31 - PHP Warning:  A non-numeric value encountered in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\home.tpl on line 6
+2017-09-28 10:08:32 - PHP Notice:  Use of undefined constant col - assumed 'col' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\home.tpl on line 6
+2017-09-28 10:08:32 - PHP Notice:  Use of undefined constant md - assumed 'md' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\home.tpl on line 6
+2017-09-28 10:08:32 - PHP Warning:  A non-numeric value encountered in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\home.tpl on line 6
+2017-09-28 10:08:32 - PHP Warning:  A non-numeric value encountered in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\home.tpl on line 6
+2017-09-28 10:08:37 - PHP Notice:  Use of undefined constant col - assumed 'col' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\home.tpl on line 6
+2017-09-28 10:08:37 - PHP Notice:  Use of undefined constant md - assumed 'md' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\home.tpl on line 6
+2017-09-28 10:08:37 - PHP Warning:  A non-numeric value encountered in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\home.tpl on line 6
+2017-09-28 10:08:37 - PHP Warning:  A non-numeric value encountered in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\home.tpl on line 6
+2017-09-28 10:08:41 - PHP Notice:  Use of undefined constant col - assumed 'col' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\home.tpl on line 6
+2017-09-28 10:08:41 - PHP Notice:  Use of undefined constant md - assumed 'md' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\home.tpl on line 6
+2017-09-28 10:08:41 - PHP Warning:  A non-numeric value encountered in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\home.tpl on line 6
+2017-09-28 10:08:41 - PHP Warning:  A non-numeric value encountered in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\home.tpl on line 6
+2017-09-28 10:08:56 - PHP Notice:  Use of undefined constant col - assumed 'col' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\home.tpl on line 6
+2017-09-28 10:08:56 - PHP Notice:  Use of undefined constant md - assumed 'md' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\home.tpl on line 6
+2017-09-28 10:08:56 - PHP Warning:  A non-numeric value encountered in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\home.tpl on line 6
+2017-09-28 10:08:56 - PHP Warning:  A non-numeric value encountered in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\home.tpl on line 6
+2017-09-28 10:08:56 - PHP Notice:  Use of undefined constant col - assumed 'col' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\home.tpl on line 6
+2017-09-28 10:08:56 - PHP Notice:  Use of undefined constant md - assumed 'md' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\home.tpl on line 6
+2017-09-28 10:08:56 - PHP Warning:  A non-numeric value encountered in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\home.tpl on line 6
+2017-09-28 10:08:56 - PHP Warning:  A non-numeric value encountered in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\home.tpl on line 6
+2017-09-28 10:08:58 - PHP Notice:  Use of undefined constant col - assumed 'col' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\home.tpl on line 6
+2017-09-28 10:08:58 - PHP Notice:  Use of undefined constant md - assumed 'md' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\home.tpl on line 6
+2017-09-28 10:08:58 - PHP Warning:  A non-numeric value encountered in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\home.tpl on line 6
+2017-09-28 10:08:58 - PHP Warning:  A non-numeric value encountered in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\home.tpl on line 6
+2017-09-28 10:08:58 - PHP Notice:  Use of undefined constant col - assumed 'col' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\home.tpl on line 6
+2017-09-28 10:08:58 - PHP Notice:  Use of undefined constant md - assumed 'md' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\home.tpl on line 6
+2017-09-28 10:08:58 - PHP Warning:  A non-numeric value encountered in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\home.tpl on line 6
+2017-09-28 10:08:58 - PHP Warning:  A non-numeric value encountered in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\home.tpl on line 6
+2017-09-28 10:13:55 - PHP Notice:  Use of undefined constant col - assumed 'col' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\home.tpl on line 6
+2017-09-28 10:13:55 - PHP Notice:  Use of undefined constant md - assumed 'md' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\home.tpl on line 6
+2017-09-28 10:13:55 - PHP Warning:  A non-numeric value encountered in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\home.tpl on line 6
+2017-09-28 10:13:55 - PHP Warning:  A non-numeric value encountered in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\home.tpl on line 6
+2017-09-28 10:29:56 - PHP Notice:  Undefined variable: categoreis in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\extension\module\category.tpl on line 5
+2017-09-28 10:29:56 - PHP Warning:  Invalid argument supplied for foreach() in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\extension\module\category.tpl on line 5
+2017-09-28 10:31:57 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-28 10:48:11 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-28 10:50:44 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-28 10:51:57 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-28 10:52:01 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-28 10:52:02 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-28 10:52:03 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-28 10:52:06 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-28 10:52:09 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-28 10:52:30 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-28 10:58:18 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-28 10:58:21 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-28 10:58:22 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-28 10:58:23 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-28 10:58:24 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-28 10:58:24 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-28 10:58:24 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-28 10:58:24 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-28 10:58:25 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-28 10:58:25 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-28 10:58:53 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-28 11:05:44 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-28 11:05:46 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-28 11:07:38 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-28 11:07:45 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-28 11:08:27 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-28 11:08:32 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-28 11:08:55 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-28 11:09:01 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-28 11:09:08 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-28 11:09:12 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-28 11:09:55 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-28 11:11:39 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-28 11:11:40 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-28 11:11:41 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-28 11:11:42 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-28 11:11:42 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-28 11:11:43 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-28 11:11:43 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-28 11:11:43 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-28 11:11:43 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-28 11:11:48 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-28 11:25:50 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-28 11:26:47 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-28 11:26:53 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-28 11:32:56 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-28 11:33:13 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-28 11:34:34 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-28 11:36:58 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-28 11:37:00 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-28 11:37:02 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-28 11:41:32 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-28 11:48:05 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-28 11:51:37 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-28 11:53:39 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-28 11:54:25 - PHP Notice:  Undefined variable: hading_title in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\extension\module\category.tpl on line 2
+2017-09-28 12:03:35 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-28 12:10:47 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-28 12:18:41 - PHP Notice:  Undefined variable: heading in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\extension\module\featured.tpl on line 2
+2017-09-28 12:18:41 - PHP Notice:  Use of undefined constant product - assumed 'product' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\extension\module\featured.tpl on line 13
+2017-09-28 12:18:41 - PHP Warning:  Illegal string offset 'description' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\extension\module\featured.tpl on line 13
+2017-09-28 12:18:41 - PHP Notice:  Use of undefined constant product - assumed 'product' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\extension\module\featured.tpl on line 13
+2017-09-28 12:18:41 - PHP Warning:  Illegal string offset 'description' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\extension\module\featured.tpl on line 13
+2017-09-28 12:18:41 - PHP Notice:  Use of undefined constant product - assumed 'product' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\extension\module\featured.tpl on line 13
+2017-09-28 12:18:41 - PHP Warning:  Illegal string offset 'description' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\extension\module\featured.tpl on line 13
+2017-09-28 12:18:41 - PHP Notice:  Use of undefined constant product - assumed 'product' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\extension\module\featured.tpl on line 13
+2017-09-28 12:18:41 - PHP Warning:  Illegal string offset 'description' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\extension\module\featured.tpl on line 13
+2017-09-28 12:18:41 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-28 12:19:10 - PHP Notice:  Use of undefined constant product - assumed 'product' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\extension\module\featured.tpl on line 13
+2017-09-28 12:19:10 - PHP Warning:  Illegal string offset 'description' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\extension\module\featured.tpl on line 13
+2017-09-28 12:19:10 - PHP Notice:  Use of undefined constant product - assumed 'product' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\extension\module\featured.tpl on line 13
+2017-09-28 12:19:10 - PHP Warning:  Illegal string offset 'description' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\extension\module\featured.tpl on line 13
+2017-09-28 12:19:10 - PHP Notice:  Use of undefined constant product - assumed 'product' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\extension\module\featured.tpl on line 13
+2017-09-28 12:19:10 - PHP Warning:  Illegal string offset 'description' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\extension\module\featured.tpl on line 13
+2017-09-28 12:19:10 - PHP Notice:  Use of undefined constant product - assumed 'product' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\extension\module\featured.tpl on line 13
+2017-09-28 12:19:10 - PHP Warning:  Illegal string offset 'description' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\extension\module\featured.tpl on line 13
+2017-09-28 12:19:10 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-28 12:19:39 - PHP Notice:  Use of undefined constant product - assumed 'product' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\extension\module\featured.tpl on line 13
+2017-09-28 12:19:39 - PHP Warning:  Illegal string offset 'description' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\extension\module\featured.tpl on line 13
+2017-09-28 12:19:39 - PHP Notice:  Use of undefined constant product - assumed 'product' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\extension\module\featured.tpl on line 13
+2017-09-28 12:19:39 - PHP Warning:  Illegal string offset 'description' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\extension\module\featured.tpl on line 13
+2017-09-28 12:19:39 - PHP Notice:  Use of undefined constant product - assumed 'product' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\extension\module\featured.tpl on line 13
+2017-09-28 12:19:39 - PHP Warning:  Illegal string offset 'description' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\extension\module\featured.tpl on line 13
+2017-09-28 12:19:39 - PHP Notice:  Use of undefined constant product - assumed 'product' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\extension\module\featured.tpl on line 13
+2017-09-28 12:19:39 - PHP Warning:  Illegal string offset 'description' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\extension\module\featured.tpl on line 13
+2017-09-28 12:19:39 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-28 12:45:38 - PHP Notice:  Use of undefined constant product - assumed 'product' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\extension\module\featured.tpl on line 13
+2017-09-28 12:45:38 - PHP Warning:  Illegal string offset 'description' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\extension\module\featured.tpl on line 13
+2017-09-28 12:45:38 - PHP Notice:  Use of undefined constant product - assumed 'product' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\extension\module\featured.tpl on line 13
+2017-09-28 12:45:38 - PHP Warning:  Illegal string offset 'description' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\extension\module\featured.tpl on line 13
+2017-09-28 12:45:38 - PHP Notice:  Use of undefined constant product - assumed 'product' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\extension\module\featured.tpl on line 13
+2017-09-28 12:45:38 - PHP Warning:  Illegal string offset 'description' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\extension\module\featured.tpl on line 13
+2017-09-28 12:45:38 - PHP Notice:  Use of undefined constant product - assumed 'product' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\extension\module\featured.tpl on line 13
+2017-09-28 12:45:38 - PHP Warning:  Illegal string offset 'description' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\extension\module\featured.tpl on line 13
+2017-09-28 12:46:04 - PHP Notice:  Use of undefined constant product - assumed 'product' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\extension\module\featured.tpl on line 13
+2017-09-28 12:46:04 - PHP Warning:  Illegal string offset 'description' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\extension\module\featured.tpl on line 13
+2017-09-28 12:46:04 - PHP Notice:  Use of undefined constant product - assumed 'product' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\extension\module\featured.tpl on line 13
+2017-09-28 12:46:04 - PHP Warning:  Illegal string offset 'description' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\extension\module\featured.tpl on line 13
+2017-09-28 12:46:04 - PHP Notice:  Use of undefined constant product - assumed 'product' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\extension\module\featured.tpl on line 13
+2017-09-28 12:46:04 - PHP Warning:  Illegal string offset 'description' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\extension\module\featured.tpl on line 13
+2017-09-28 12:46:04 - PHP Notice:  Use of undefined constant product - assumed 'product' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\extension\module\featured.tpl on line 13
+2017-09-28 12:46:04 - PHP Warning:  Illegal string offset 'description' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\extension\module\featured.tpl on line 13
+2017-09-28 12:46:27 - PHP Notice:  Use of undefined constant product - assumed 'product' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\extension\module\featured.tpl on line 13
+2017-09-28 12:46:27 - PHP Warning:  Illegal string offset 'description' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\extension\module\featured.tpl on line 13
+2017-09-28 12:46:27 - PHP Notice:  Use of undefined constant product - assumed 'product' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\extension\module\featured.tpl on line 13
+2017-09-28 12:46:27 - PHP Warning:  Illegal string offset 'description' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\extension\module\featured.tpl on line 13
+2017-09-28 12:46:27 - PHP Notice:  Use of undefined constant product - assumed 'product' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\extension\module\featured.tpl on line 13
+2017-09-28 12:46:27 - PHP Warning:  Illegal string offset 'description' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\extension\module\featured.tpl on line 13
+2017-09-28 12:46:27 - PHP Notice:  Use of undefined constant product - assumed 'product' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\extension\module\featured.tpl on line 13
+2017-09-28 12:46:27 - PHP Warning:  Illegal string offset 'description' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\extension\module\featured.tpl on line 13
+2017-09-28 12:48:29 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-28 12:48:33 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-28 12:48:35 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-28 12:48:40 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-28 12:48:40 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-28 12:49:13 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-28 12:51:53 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-28 12:51:54 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-28 12:51:55 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-28 12:52:16 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-28 12:53:45 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-28 12:53:48 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-28 12:56:12 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-28 12:56:42 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-28 13:02:23 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-28 13:04:59 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-28 13:06:29 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-28 13:06:30 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-28 13:06:58 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-28 13:08:02 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-28 13:08:13 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-28 13:08:25 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-28 13:16:55 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-28 13:17:05 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-28 13:17:06 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-28 13:17:27 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-28 13:17:43 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-28 13:17:49 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-28 13:18:08 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-28 13:18:09 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-28 13:18:18 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-28 13:18:50 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-28 13:18:52 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-28 13:20:41 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-28 13:27:10 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-28 13:27:17 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-28 13:28:28 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-28 13:28:31 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-28 13:28:48 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-28 13:29:21 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-28 13:29:27 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-28 13:33:33 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-28 13:37:46 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-28 13:55:37 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-28 13:55:38 - PHP Notice:  Undefined index:  in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\cart.tpl on line 33
+2017-09-28 13:56:10 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-28 13:57:13 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-28 13:57:15 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-28 13:57:16 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-28 13:57:55 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-28 13:57:55 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-28 13:57:56 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-28 13:58:54 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-28 13:59:16 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-28 13:59:33 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-28 14:04:23 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-28 14:04:32 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-28 14:05:12 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-28 14:12:02 - PHP Notice:  Undefined variable: inforamtion in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\footer.tpl on line 37
+2017-09-28 14:12:02 - PHP Notice:  Undefined variable: inforamtion in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\footer.tpl on line 37
+2017-09-28 14:12:02 - PHP Notice:  Undefined variable: inforamtion in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\footer.tpl on line 37
+2017-09-28 14:12:02 - PHP Notice:  Undefined variable: inforamtion in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\footer.tpl on line 37
+2017-09-28 14:12:02 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-28 14:12:08 - PHP Notice:  Undefined variable: inforamtion in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\footer.tpl on line 37
+2017-09-28 14:12:08 - PHP Notice:  Undefined variable: inforamtion in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\footer.tpl on line 37
+2017-09-28 14:12:08 - PHP Notice:  Undefined variable: inforamtion in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\footer.tpl on line 37
+2017-09-28 14:12:08 - PHP Notice:  Undefined variable: inforamtion in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\footer.tpl on line 37
+2017-09-28 14:12:08 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-28 14:12:36 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-28 14:12:55 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-28 14:19:18 - PHP Notice:  Undefined variable: text_servise in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\footer.tpl on line 42
+2017-09-28 14:19:18 - PHP Notice:  Use of undefined constant text_contact - assumed 'text_contact' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\footer.tpl on line 44
+2017-09-28 14:19:38 - PHP Notice:  Use of undefined constant text_contact - assumed 'text_contact' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\footer.tpl on line 44
+2017-09-28 14:27:32 - PHP Notice:  Undefined variable: text_manufacture in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\footer.tpl on line 53
+2017-09-28 14:27:32 - PHP Notice:  Undefined variable: text_cpecial in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\footer.tpl on line 56
+2017-09-28 14:32:50 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101
+2017-09-28 14:36:21 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\header.tpl on line 101

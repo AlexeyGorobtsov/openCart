@@ -363,6 +363,7 @@ section.menu-carousel{
 	height: 452px;
 	overflow: hidden;
 	transition: all .5s;
+	margin-bottom: 20px;
 }
 .product:hover{
 	box-shadow: 0 0 16px rgba(0, 0, 0, .5);
@@ -502,6 +503,9 @@ section.menu-carousel{
 }
 .main-menu .navbar-brand span:not(.common-home){
 	padding-left: 25px;
+}
+.cats ul{
+	padding-left: 20px;
 }
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
