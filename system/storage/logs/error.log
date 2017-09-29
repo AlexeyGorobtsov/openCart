@@ -845,3 +845,10 @@
 2017-09-29 13:44:03 - PHP Notice:  Undefined index: product_id in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\product\product.tpl on line 140
 2017-09-29 13:44:12 - PHP Notice:  Undefined index: product_id in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\product\product.tpl on line 140
 2017-09-29 13:54:27 - PHP Notice:  Undefined variable: fotter in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\product\category.tpl on line 2
+2017-09-29 17:14:44 - PHP Notice:  Undefined variable: result in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\product\category.tpl on line 95
+2017-09-29 17:15:03 - PHP Notice:  Undefined variable: result in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\product\category.tpl on line 95
+2017-09-29 17:15:03 - PHP Notice:  Undefined variable: result in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\product\category.tpl on line 95
+2017-09-29 17:17:48 - PHP Notice:  Undefined variable: result in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\product\category.tpl on line 95
+2017-09-29 17:17:52 - PHP Notice:  Undefined variable: result in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\product\category.tpl on line 95
+2017-09-29 17:20:13 - PHP Notice:  Undefined variable: ckeditor in C:\OSPanel\domains\oc.loc\admin\view\template\extension\theme\storeset.tpl on line 1705
+2017-09-29 17:20:13 - PHP Notice:  Undefined variable: ckeditor in C:\OSPanel\domains\oc.loc\admin\view\template\extension\theme\storeset.tpl on line 1728

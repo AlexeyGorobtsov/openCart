@@ -5,9 +5,37 @@ body{
 	color: #000;
 	min-width: 320px;
 }
+h1, h3{
+	font-size: 30px;
+}
+hr{
+	border-color: #ccc;
+}
+.product-img {
+	min-height: 200px;
+}
 img{
 	max-width: 100%;
 	height: auto;
+}
+.product-list .product{
+	height: auto;
+	text-align: left;
+}
+.product-list .product-img{
+	display: inline-block;
+	width: auto;
+	float: left;
+	margin-right: 10px;
+}
+.product-list .product-desk{
+	max-height: none;
+}
+.pagination {
+	margin: 0px;
+}
+.results{
+	line-height: 30px;
 }
 h3{
 	font-size: 24px;
