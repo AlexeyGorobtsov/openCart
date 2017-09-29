@@ -43,9 +43,9 @@
             <?php } ?>
           </ul>
           <div class="tab-content">
-            <div class="tab-pane active" id="tab-description"><?php echo $description; ?></div>
+            <div class="tab-pane fade in active" id="tab-description"><?php echo $description; ?></div>
             <?php if ($attribute_groups) { ?>
-            <div class="tab-pane" id="tab-specification">
+            <div class="tab-pane fade" id="tab-specification">
               <table class="table table-bordered">
                 <?php foreach ($attribute_groups as $attribute_group) { ?>
                 <thead>
@@ -66,7 +66,7 @@
             </div>
             <?php } ?>
             <?php if ($review_status) { ?>
-            <div class="tab-pane" id="tab-review">
+            <div class="tab-pane fade" id="tab-review">
               <form class="form-horizontal" id="form-review">
                 <div id="review"></div>
                 <h2><?php echo $text_write; ?></h2>
@@ -191,8 +191,8 @@
                   <label>
                     <input type="radio" name="option[<?php echo $option['product_option_id']; ?>]" value="<?php echo $option_value['product_option_value_id']; ?>" />
                     <?php if ($option_value['image']) { ?>
-                    <img src="<?php echo $option_value['image']; ?>" alt="<?php echo $option_value['name'] . ($option_value['price'] ? ' ' . $option_value['price_prefix'] . $option_value['price'] : ''); ?>" class="img-thumbnail" /> 
-                    <?php } ?>                    
+                    <img src="<?php echo $option_value['image']; ?>" alt="<?php echo $option_value['name'] . ($option_value['price'] ? ' ' . $option_value['price_prefix'] . $option_value['price'] : ''); ?>" class="img-thumbnail" />
+                    <?php } ?>
                     <?php echo $option_value['name']; ?>
                     <?php if ($option_value['price']) { ?>
                     (<?php echo $option_value['price_prefix']; ?><?php echo $option_value['price']; ?>)
@@ -212,7 +212,7 @@
                   <label>
                     <input type="checkbox" name="option[<?php echo $option['product_option_id']; ?>][]" value="<?php echo $option_value['product_option_value_id']; ?>" />
                     <?php if ($option_value['image']) { ?>
-                    <img src="<?php echo $option_value['image']; ?>" alt="<?php echo $option_value['name'] . ($option_value['price'] ? ' ' . $option_value['price_prefix'] . $option_value['price'] : ''); ?>" class="img-thumbnail" /> 
+                    <img src="<?php echo $option_value['image']; ?>" alt="<?php echo $option_value['name'] . ($option_value['price'] ? ' ' . $option_value['price_prefix'] . $option_value['price'] : ''); ?>" class="img-thumbnail" />
                     <?php } ?>
                     <?php echo $option_value['name']; ?>
                     <?php if ($option_value['price']) { ?>
@@ -414,58 +414,64 @@ $('select[name=\'recurring_id\'], input[name="quantity"]').change(function(){
 });
 //--></script>
 <script type="text/javascript"><!--
-$('#button-cart').on('click', function() {
-	$.ajax({
-		url: 'index.php?route=checkout/cart/add',
-		type: 'post',
-		data: $('#product input[type=\'text\'], #product input[type=\'hidden\'], #product input[type=\'radio\']:checked, #product input[type=\'checkbox\']:checked, #product select, #product textarea'),
-		dataType: 'json',
-		beforeSend: function() {
-			$('#button-cart').button('loading');
-		},
-		complete: function() {
-			$('#button-cart').button('reset');
-		},
-		success: function(json) {
-			$('.alert, .text-danger').remove();
-			$('.form-group').removeClass('has-error');
+    $('#button-cart').on('click', function() {
+        $.ajax({
+            url: 'index.php?route=checkout/cart/add',
+            type: 'post',
+            data: $('#product input[type=\'text\'], #product input[type=\'hidden\'], #product input[type=\'radio\']:checked, #product input[type=\'checkbox\']:checked, #product select, #product textarea'),
+            dataType: 'json',
+            beforeSend: function() {
+                $('#button-cart').button('loading');
+            },
+            complete: function() {
+                $('#button-cart').button('reset');
+            },
+            success: function(json) {
+                $('.alert, .text-danger').remove();
+                $('.form-group').removeClass('has-error');
 
-			if (json['error']) {
-				if (json['error']['option']) {
-					for (i in json['error']['option']) {
-						var element = $('#input-option' + i.replace('_', '-'));
+                if (json['error']) {
+                    if (json['error']['option']) {
+                        for (i in json['error']['option']) {
+                            var element = $('#input-option' + i.replace('_', '-'));
 
-						if (element.parent().hasClass('input-group')) {
-							element.parent().after('<div class="text-danger">' + json['error']['option'][i] + '</div>');
-						} else {
-							element.after('<div class="text-danger">' + json['error']['option'][i] + '</div>');
-						}
-					}
-				}
+                            if (element.parent().hasClass('input-group')) {
+                                element.parent().after('<div class="text-danger">' + json['error']['option'][i] + '</div>');
+                            } else {
+                                element.after('<div class="text-danger">' + json['error']['option'][i] + '</div>');
+                            }
+                        }
+                    }
 
-				if (json['error']['recurring']) {
-					$('select[name=\'recurring_id\']').after('<div class="text-danger">' + json['error']['recurring'] + '</div>');
-				}
+                    if (json['error']['recurring']) {
+                        $('select[name=\'recurring_id\']').after('<div class="text-danger">' + json['error']['recurring'] + '</div>');
+                    }
 
-				// Highlight any found errors
-				$('.text-danger').parent().addClass('has-error');
-			}
+                    // Highlight any found errors
+                    $('.text-danger').parent().addClass('has-error');
+                }
 
-			if (json['success']) {
-				$('.breadcrumb').after('<div class="alert alert-success">' + json['success'] + '<button type="button" class="close" data-dismiss="alert">&times;</button></div>');
+                if (json['success']) {
+                    // $('.breadcrumb').after('<div class="alert alert-success">' + json['success'] + '<button type="button" class="close" data-dismiss="alert">&times;</button></div>');
 
-				$('#cart > button').html('<span id="cart-total"><i class="fa fa-shopping-cart"></i> ' + json['total'] + '</span>');
+                    $('#cart > button').html('<span id="cart-total"><i class="fa fa-shopping-cart"></i> ' + json['total'] + '</span>');
 
-				$('html, body').animate({ scrollTop: 0 }, 'slow');
+                    // $('html, body').animate({ scrollTop: 0 }, 'slow');
 
-				$('#cart > ul').load('index.php?route=common/cart/info ul li');
-			}
-		},
-        error: function(xhr, ajaxOptions, thrownError) {
-            alert(thrownError + "\r\n" + xhr.statusText + "\r\n" + xhr.responseText);
-        }
-	});
-});
+                    $('#btn-cart span.cart-info').html(json['total']);
+                    $('#cart .modal-body').load('index.php?route=common/cart/info .modal-body');
+                    $('#cart').modal();
+
+                    // $('#cart > ul').load('index.php?route=common/cart/info ul li');
+                }
+            },
+            error: function(xhr, ajaxOptions, thrownError) {
+                alert(thrownError + "\r\n" + xhr.statusText + "\r\n" + xhr.responseText);
+            }
+        });
+    });
+
+    });
 //--></script>
 <script type="text/javascript"><!--
 $('.date').datetimepicker({
@@ -600,4 +606,4 @@ $(document).ready(function() {
 	}
 })
 //--></script>
-<?php echo $footer; ?>
+<?= $footer; ?>

@@ -781,3 +781,67 @@
 2017-09-28 16:36:28 - PHP Notice:  Undefined variable: newsletter in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\column_left.tpl on line 65
 2017-09-28 16:36:28 - PHP Notice:  Undefined variable: text_newsletter in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\common\column_left.tpl on line 65
 2017-09-28 17:32:06 - PHP Notice:  Undefined variable: thump in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\product\product.tpl on line 17
+2017-09-29 9:47:11 - PHP Notice:  Undefined variable: entery_name in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\product\product.tpl on line 73
+2017-09-29 9:47:12 - PHP Notice:  Undefined variable: entery_name in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\product\product.tpl on line 73
+2017-09-29 10:15:40 - PHP Notice:  Undefined variable: entery_name in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\product\product.tpl on line 73
+2017-09-29 10:55:53 - PHP Notice:  Use of undefined constant model - assumed 'model' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\product\product.tpl on line 116
+2017-09-29 11:46:39 - PHP Notice:  Undefined variable: entry_gty in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\product\product.tpl on line 133
+2017-09-29 11:46:40 - PHP Notice:  Undefined variable: entry_gty in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\product\product.tpl on line 133
+2017-09-29 11:46:43 - PHP Notice:  Undefined variable: entry_gty in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\product\product.tpl on line 133
+2017-09-29 11:46:43 - PHP Notice:  Undefined variable: entry_gty in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\product\product.tpl on line 133
+2017-09-29 11:46:43 - PHP Notice:  Undefined variable: entry_gty in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\product\product.tpl on line 133
+2017-09-29 11:46:44 - PHP Notice:  Undefined variable: entry_gty in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\product\product.tpl on line 133
+2017-09-29 11:46:44 - PHP Notice:  Undefined variable: entry_gty in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\product\product.tpl on line 133
+2017-09-29 13:34:30 - PHP Notice:  Undefined variable: option in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\product\product.tpl on line 133
+2017-09-29 13:34:38 - PHP Notice:  Undefined variable: option in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\product\product.tpl on line 133
+2017-09-29 13:35:02 - PHP Notice:  Undefined variable: option in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\product\product.tpl on line 136
+2017-09-29 13:35:02 - PHP Warning:  Invalid argument supplied for foreach() in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\product\product.tpl on line 136
+2017-09-29 13:35:03 - PHP Notice:  Undefined variable: option in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\product\product.tpl on line 136
+2017-09-29 13:35:03 - PHP Warning:  Invalid argument supplied for foreach() in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\product\product.tpl on line 136
+2017-09-29 13:35:04 - PHP Notice:  Undefined variable: option in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\product\product.tpl on line 136
+2017-09-29 13:35:04 - PHP Warning:  Invalid argument supplied for foreach() in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\product\product.tpl on line 136
+2017-09-29 13:35:17 - PHP Notice:  Use of undefined constant input - assumed 'input' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\product\product.tpl on line 139
+2017-09-29 13:35:17 - PHP Notice:  Use of undefined constant option - assumed 'option' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\product\product.tpl on line 139
+2017-09-29 13:35:17 - PHP Warning:  Illegal string offset 'product_option_id' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\product\product.tpl on line 139
+2017-09-29 13:35:17 - PHP Warning:  A non-numeric value encountered in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\product\product.tpl on line 139
+2017-09-29 13:35:17 - PHP Warning:  A non-numeric value encountered in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\product\product.tpl on line 139
+2017-09-29 13:35:17 - PHP Notice:  Undefined index: product_id in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\product\product.tpl on line 140
+2017-09-29 13:35:18 - PHP Notice:  Use of undefined constant input - assumed 'input' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\product\product.tpl on line 139
+2017-09-29 13:35:18 - PHP Notice:  Use of undefined constant option - assumed 'option' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\product\product.tpl on line 139
+2017-09-29 13:35:18 - PHP Warning:  Illegal string offset 'product_option_id' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\product\product.tpl on line 139
+2017-09-29 13:35:18 - PHP Warning:  A non-numeric value encountered in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\product\product.tpl on line 139
+2017-09-29 13:35:18 - PHP Warning:  A non-numeric value encountered in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\product\product.tpl on line 139
+2017-09-29 13:35:18 - PHP Notice:  Undefined index: product_id in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\product\product.tpl on line 140
+2017-09-29 13:35:19 - PHP Notice:  Use of undefined constant input - assumed 'input' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\product\product.tpl on line 139
+2017-09-29 13:35:19 - PHP Notice:  Use of undefined constant option - assumed 'option' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\product\product.tpl on line 139
+2017-09-29 13:35:19 - PHP Warning:  Illegal string offset 'product_option_id' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\product\product.tpl on line 139
+2017-09-29 13:35:19 - PHP Warning:  A non-numeric value encountered in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\product\product.tpl on line 139
+2017-09-29 13:35:19 - PHP Warning:  A non-numeric value encountered in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\product\product.tpl on line 139
+2017-09-29 13:35:19 - PHP Notice:  Undefined index: product_id in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\product\product.tpl on line 140
+2017-09-29 13:35:59 - PHP Notice:  Use of undefined constant input - assumed 'input' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\product\product.tpl on line 139
+2017-09-29 13:35:59 - PHP Notice:  Use of undefined constant option - assumed 'option' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\product\product.tpl on line 139
+2017-09-29 13:35:59 - PHP Warning:  Illegal string offset 'product_option_id' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\product\product.tpl on line 139
+2017-09-29 13:35:59 - PHP Warning:  A non-numeric value encountered in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\product\product.tpl on line 139
+2017-09-29 13:35:59 - PHP Warning:  A non-numeric value encountered in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\product\product.tpl on line 139
+2017-09-29 13:35:59 - PHP Notice:  Undefined index: product_id in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\product\product.tpl on line 140
+2017-09-29 13:36:25 - PHP Notice:  Use of undefined constant input - assumed 'input' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\product\product.tpl on line 139
+2017-09-29 13:36:25 - PHP Notice:  Use of undefined constant option - assumed 'option' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\product\product.tpl on line 139
+2017-09-29 13:36:25 - PHP Warning:  Illegal string offset 'product_option_id' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\product\product.tpl on line 139
+2017-09-29 13:36:25 - PHP Warning:  A non-numeric value encountered in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\product\product.tpl on line 139
+2017-09-29 13:36:25 - PHP Warning:  A non-numeric value encountered in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\product\product.tpl on line 139
+2017-09-29 13:36:25 - PHP Notice:  Undefined index: product_id in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\product\product.tpl on line 140
+2017-09-29 13:41:39 - PHP Notice:  Use of undefined constant input - assumed 'input' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\product\product.tpl on line 139
+2017-09-29 13:41:39 - PHP Notice:  Use of undefined constant option - assumed 'option' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\product\product.tpl on line 139
+2017-09-29 13:41:39 - PHP Warning:  Illegal string offset 'product_option_id' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\product\product.tpl on line 139
+2017-09-29 13:41:39 - PHP Warning:  A non-numeric value encountered in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\product\product.tpl on line 139
+2017-09-29 13:41:39 - PHP Warning:  A non-numeric value encountered in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\product\product.tpl on line 139
+2017-09-29 13:41:39 - PHP Notice:  Undefined index: product_id in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\product\product.tpl on line 140
+2017-09-29 13:42:11 - PHP Notice:  Use of undefined constant input - assumed 'input' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\product\product.tpl on line 139
+2017-09-29 13:42:11 - PHP Notice:  Use of undefined constant option - assumed 'option' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\product\product.tpl on line 139
+2017-09-29 13:42:11 - PHP Warning:  Illegal string offset 'product_option_id' in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\product\product.tpl on line 139
+2017-09-29 13:42:11 - PHP Warning:  A non-numeric value encountered in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\product\product.tpl on line 139
+2017-09-29 13:42:11 - PHP Warning:  A non-numeric value encountered in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\product\product.tpl on line 139
+2017-09-29 13:42:11 - PHP Notice:  Undefined index: product_id in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\product\product.tpl on line 140
+2017-09-29 13:44:03 - PHP Notice:  Undefined index: product_id in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\product\product.tpl on line 140
+2017-09-29 13:44:12 - PHP Notice:  Undefined index: product_id in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\product\product.tpl on line 140
+2017-09-29 13:54:27 - PHP Notice:  Undefined variable: fotter in C:\OSPanel\domains\oc.loc\catalog\view\theme\styletour\template\product\category.tpl on line 2

@@ -106,6 +106,9 @@ span.glyphicon-shopping-cart{
 body:not(.common-home) .content{
 	padding-top: 20px;
 }
+body:not(.common-home) {
+	font-size: 12px;
+}
 form.navbar-form.navbar-left{
 	right: 0;
 }
@@ -510,6 +513,11 @@ section.menu-carousel{
 .cats ul{
 	padding-left: 20px;
 }
+.price-old{
+	font-size: 12px;
+	text-decoration: line-through;
+	color: #cccce0;
+}
 .thumbnails {
 	overflow: auto;
 	clear: both;
@@ -531,6 +539,15 @@ section.menu-carousel{
 	padding: 5px;
 	display: block;
 	border: 1px solid #ddd;
+}
+.products-tab{
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	margin:15px 0px;
+	padding: 10px;
+}
+.tab-content {
+	padding: 5px 0px;
 }
 .image-additional {
 	max-width: 78px;
